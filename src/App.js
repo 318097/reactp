@@ -4,7 +4,7 @@ import Rendering from "./components/Rendering";
 const menu = [
   {
     comp: <Rendering />,
-    label: "Rendering test",
+    label: "Re-rendering",
     visible: true
   }
 ];
@@ -16,7 +16,7 @@ export default function App() {
         const { comp, label } = obj;
 
         return (
-          <section>
+          <section key={label}>
             <h4>{label}</h4>
             <div className="content">{comp}</div>
           </section>
