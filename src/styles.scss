@@ -1,0 +1,28 @@
+*{
+  font-family: monospace;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+section{
+  background: whitesmoke;
+  border-radius: 4px;
+  padding: 20px;
+  h4{
+    margin: 0 0 20px;
+    border-bottom: 1px dashed lightgray;
+    padding-bottom: 20px;
+  }
+}
+ 
+.fcc{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
